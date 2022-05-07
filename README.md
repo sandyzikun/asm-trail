@@ -7,18 +7,23 @@ A Simple Trail on Assembly.
 1. Compilation
 
     ```sh
-    $ nasm ./init.asm -f elf64 -o ./init.o
+    $ nasm ./init-01.asm -f elf64 [-o ./init-01.o]
     ```
 
 2. Linking
 
     ```sh
-    $ ld -s ./init.o -o ./init.out
+    $ ld -s ./init-01.o -o ./init-01.out
     ```
 
 3. Execution
 
     ```sh
-    $ ./init.out
+    $ ./init-01.out
     Holax, sekai!
+    39
+    Sharing (the World)
+    We're Sharing an Endless Love
     ```
+
+    (The part in brackets`()` is User's input.)
